@@ -1,8 +1,6 @@
-let face = ["A", "B", "C", "D", "E"];
-
 function setup() {
 
-  console.log(face[2]);
+  let face = ["A", "B", "C", "D", "E"];
 
   eyeColor = color(128); // eye color is gray
 
@@ -18,6 +16,8 @@ function setup() {
   //face
   noStroke;
   background(255, 255, 204);
+
+  console.log(face[2]);
 
   drawHair();
   drawNose();
