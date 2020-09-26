@@ -1,8 +1,4 @@
-let face = ["happy", "sad", "angry", "scared", "excited"];
-
 function setup() {
-
-  face = ["happy", "sad", "angry", "scared", "excited"];
 
   eyeColor = color(128); // eye color is gray
 
@@ -18,8 +14,6 @@ function setup() {
   //face
   noStroke;
   background(255, 255, 204);
-
-  console.log(face[2]);
 
   drawHair();
   drawNose();
