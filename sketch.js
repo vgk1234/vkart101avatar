@@ -1,6 +1,8 @@
+let face = ["happy", "sad", "angry", "scared", "excited"];
+
 function setup() {
 
-  face = ["A", "B", "C", "D", "E"];
+  face = ["happy", "sad", "angry", "scared", "excited"];
 
   eyeColor = color(128); // eye color is gray
 
