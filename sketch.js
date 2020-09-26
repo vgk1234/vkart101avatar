@@ -1,6 +1,6 @@
 function setup() {
 
-  let face = ["A", "B", "C", "D", "E"];
+  face = ["A", "B", "C", "D", "E"];
 
   eyeColor = color(128); // eye color is gray
 
