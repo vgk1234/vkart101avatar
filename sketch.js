@@ -1,20 +1,24 @@
+let face = ["A", "B", "C", "D", "E"]''
+
 function setup() {
-  
+
+  console.log(face[0];)
+
   eyeColor = color(128); // eye color is gray
-  
-  
+
+
   yPos = height * 2.5; // height where tear drop begins
   eyeColor = color(128); // eye color is gray
   tear1 = new Tear (width/4, yPos, width/20);
   tear2 = new Tear (width * 3/4, yPos, width/20);
   console.log (tear1);
   console.log (tear2);
-  
+
   createCanvas(400, 400);
   //face
   noStroke;
   background(255, 255, 204);
-  
+
   drawHair();
   drawNose();
   drawMouth();
@@ -23,14 +27,14 @@ function setup() {
 }
 
 function draw () {
-  tear1.display (); 
+  tear1.display ();
   tear2.display ();
   drawEye1 ();
   drawEye2 ();
 }
 
 function mousePressed() {
-  
+
   if (mouseX > width/8 && mouseX < width * 7/8 &&
      mouseY > height/3 && mouseY < height * 2/3 ) {
      console.log("I am sad");
@@ -55,7 +59,7 @@ function drawHair() {
   vertex(width * 3/4, 0);
   vertex(width * 7/8, height/3);
   vertex(400, 0);
-  endShape();  
+  endShape();
 }
 
 function drawEye1() {
@@ -65,7 +69,7 @@ function drawEye1() {
   strokeWeight(8);
   circle(width/4, width/2, width/5);
 }
-  
+
 function drawEye2() {
   //eye2
   fill(eyeColor);
@@ -105,4 +109,3 @@ function drawCheek2 () {
   strokeWeight(1);
   circle (width * 7/8, height * 3/4, width/8);
 }
-
