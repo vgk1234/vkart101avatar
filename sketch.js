@@ -1,4 +1,4 @@
-let face = ["A", "B", "C", "D", "E"]''
+let face = ["A", "B", "C", "D", "E"];
 
 function setup() {
 
