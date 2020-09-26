@@ -2,7 +2,7 @@ let face = ["A", "B", "C", "D", "E"]''
 
 function setup() {
 
-  console.log(face[0];)
+  console.log(face[2]);
 
   eyeColor = color(128); // eye color is gray
 
